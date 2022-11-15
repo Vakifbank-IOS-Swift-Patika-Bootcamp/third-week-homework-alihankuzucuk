@@ -13,6 +13,12 @@
 		C36F375B292390400092C70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36F3759292390400092C70A /* Main.storyboard */; };
 		C36F375D292390410092C70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36F375C292390410092C70A /* Assets.xcassets */; };
 		C36F3760292390410092C70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36F375E292390410092C70A /* LaunchScreen.storyboard */; };
+		C36F37692923A3BD0092C70A /* CreateCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F37682923A3BD0092C70A /* CreateCompanyViewController.swift */; };
+		C36F376C2923CA350092C70A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F376B2923CA350092C70A /* Constants.swift */; };
+		C36F376E2923D9030092C70A /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F376D2923D9030092C70A /* AddEmployeeViewController.swift */; };
+		C36F37712923F79E0092C70A /* Company.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C36F376F2923F79E0092C70A /* Company.xcdatamodeld */; };
+		C36F3773292405950092C70A /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F3772292405950092C70A /* EmployeeListViewController.swift */; };
+		C36F377529240CA00092C70A /* EmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F377429240CA00092C70A /* EmployeeListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		C36F375C292390410092C70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36F375F292390410092C70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C36F3761292390410092C70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36F37682923A3BD0092C70A /* CreateCompanyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCompanyViewController.swift; sourceTree = "<group>"; };
+		C36F376B2923CA350092C70A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C36F376D2923D9030092C70A /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		C36F37702923F79E0092C70A /* Company.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Company.xcdatamodel; sourceTree = "<group>"; };
+		C36F3772292405950092C70A /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		C36F377429240CA00092C70A /* EmployeeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		C36F3752292390400092C70A /* CompanyApp */ = {
 			isa = PBXGroup;
 			children = (
+				C36F376A2923CA290092C70A /* Models */,
+				C36F37672923A39D0092C70A /* Views */,
 				C36F3753292390400092C70A /* AppDelegate.swift */,
 				C36F3755292390400092C70A /* SceneDelegate.swift */,
-				C36F3757292390400092C70A /* ViewController.swift */,
 				C36F3759292390400092C70A /* Main.storyboard */,
 				C36F375C292390410092C70A /* Assets.xcassets */,
 				C36F375E292390410092C70A /* LaunchScreen.storyboard */,
 				C36F3761292390410092C70A /* Info.plist */,
+				C36F376F2923F79E0092C70A /* Company.xcdatamodeld */,
 			);
 			path = CompanyApp;
+			sourceTree = "<group>";
+		};
+		C36F37672923A39D0092C70A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C36F3757292390400092C70A /* ViewController.swift */,
+				C36F37682923A3BD0092C70A /* CreateCompanyViewController.swift */,
+				C36F376D2923D9030092C70A /* AddEmployeeViewController.swift */,
+				C36F3772292405950092C70A /* EmployeeListViewController.swift */,
+				C36F377429240CA00092C70A /* EmployeeListTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C36F376A2923CA290092C70A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C36F376B2923CA350092C70A /* Constants.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36F376E2923D9030092C70A /* AddEmployeeViewController.swift in Sources */,
+				C36F37712923F79E0092C70A /* Company.xcdatamodeld in Sources */,
+				C36F377529240CA00092C70A /* EmployeeListTableViewCell.swift in Sources */,
+				C36F376C2923CA350092C70A /* Constants.swift in Sources */,
 				C36F3758292390400092C70A /* ViewController.swift in Sources */,
+				C36F3773292405950092C70A /* EmployeeListViewController.swift in Sources */,
 				C36F3754292390400092C70A /* AppDelegate.swift in Sources */,
+				C36F37692923A3BD0092C70A /* CreateCompanyViewController.swift in Sources */,
 				C36F3756292390400092C70A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +398,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C36F376F2923F79E0092C70A /* Company.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C36F37702923F79E0092C70A /* Company.xcdatamodel */,
+			);
+			currentVersion = C36F37702923F79E0092C70A /* Company.xcdatamodel */;
+			path = Company.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C36F3748292390400092C70A /* Project object */;
 }

@@ -16,6 +16,32 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        let company = UserDefaults.standard.object(forKey: "company")
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        if company == nil {
+            let viewCreateNewCompanyViewController = storyBoard.instantiateViewController(identifier: "createNewCompanyViewController") as! CreateCompanyViewController
+
+            window?.rootViewController = viewCreateNewCompanyViewController
+        } else {
+            /*
+            let viewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as! ViewController
+            
+            window?.rootViewController = viewController
+            */
+            
+            /**
+             Following codes are required to show NavigationBar
+             It doesnt show NavigationBar because of when you instantiate ViewController above, it thoughts as a ViewController not a NavigationController
+             Here, we instantiate a UINavigationController and define ViewController as a rootViewController of that UINavigationController
+             */
+            let navigationController = storyBoard.instantiateInitialViewController() as! UINavigationController
+            let rootViewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as UIViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
