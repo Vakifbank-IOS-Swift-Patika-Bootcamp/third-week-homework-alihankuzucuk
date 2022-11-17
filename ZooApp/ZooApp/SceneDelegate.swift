@@ -16,6 +16,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        let zoo = UserDefaults.standard.object(forKey: "zoo")
+        
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+        if zoo == nil {
+            let viewCreateNewZooViewController = storyBoard.instantiateViewController(identifier: "createNewZooViewController") as! CreateNewZooViewController
+
+            window?.rootViewController = viewCreateNewZooViewController
+        } else {
+            let navigationController = storyBoard.instantiateInitialViewController() as! UINavigationController
+            let rootViewController = storyBoard.instantiateViewController(withIdentifier: "viewController") as UIViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }
+        
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 

@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C36AA147292690A60082BD45 /* ZooKeeperAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AA146292690A60082BD45 /* ZooKeeperAnimalsViewController.swift */; };
+		C36AA14B2926964A0082BD45 /* ZooKeeperAnimalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AA14A2926964A0082BD45 /* ZooKeeperAnimalsTableViewCell.swift */; };
+		C36AA14D2926ABF60082BD45 /* ListAnimalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AA14C2926ABF60082BD45 /* ListAnimalsViewController.swift */; };
+		C36AA14F2926AC9D0082BD45 /* ListAnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36AA14E2926AC9D0082BD45 /* ListAnimalTableViewCell.swift */; };
+		C36CE455292641E9001434FB /* AddZooKeeperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CE454292641E9001434FB /* AddZooKeeperViewController.swift */; };
+		C36CE457292641FF001434FB /* AddAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CE456292641FF001434FB /* AddAnimalViewController.swift */; };
+		C36CE45A29264C0A001434FB /* ZooDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C36CE45829264C0A001434FB /* ZooDB.xcdatamodeld */; };
+		C36CE45C29267BB8001434FB /* ListZooKeepersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CE45B29267BB8001434FB /* ListZooKeepersViewController.swift */; };
+		C36CE45E29268128001434FB /* ListZooKeeperTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36CE45D29268128001434FB /* ListZooKeeperTableViewCell.swift */; };
 		C3D8698D292622470077B348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8698C292622470077B348 /* AppDelegate.swift */; };
 		C3D8698F292622470077B348 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8698E292622470077B348 /* SceneDelegate.swift */; };
 		C3D86991292622470077B348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D86990292622470077B348 /* ViewController.swift */; };
 		C3D86994292622470077B348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D86992292622470077B348 /* Main.storyboard */; };
 		C3D86996292622490077B348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D86995292622490077B348 /* Assets.xcassets */; };
 		C3D86999292622490077B348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D86997292622490077B348 /* LaunchScreen.storyboard */; };
+		C3D869A3292626790077B348 /* CreateNewZooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D869A2292626790077B348 /* CreateNewZooViewController.swift */; };
+		C3D869A6292628320077B348 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D869A5292628320077B348 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C36AA146292690A60082BD45 /* ZooKeeperAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooKeeperAnimalsViewController.swift; sourceTree = "<group>"; };
+		C36AA14A2926964A0082BD45 /* ZooKeeperAnimalsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooKeeperAnimalsTableViewCell.swift; sourceTree = "<group>"; };
+		C36AA14C2926ABF60082BD45 /* ListAnimalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimalsViewController.swift; sourceTree = "<group>"; };
+		C36AA14E2926AC9D0082BD45 /* ListAnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimalTableViewCell.swift; sourceTree = "<group>"; };
+		C36CE454292641E9001434FB /* AddZooKeeperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddZooKeeperViewController.swift; sourceTree = "<group>"; };
+		C36CE456292641FF001434FB /* AddAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnimalViewController.swift; sourceTree = "<group>"; };
+		C36CE45929264C0A001434FB /* ZooDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZooDB.xcdatamodel; sourceTree = "<group>"; };
+		C36CE45B29267BB8001434FB /* ListZooKeepersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListZooKeepersViewController.swift; sourceTree = "<group>"; };
+		C36CE45D29268128001434FB /* ListZooKeeperTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListZooKeeperTableViewCell.swift; sourceTree = "<group>"; };
 		C3D86989292622470077B348 /* ZooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3D8698C292622470077B348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3D8698E292622470077B348 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,8 @@
 		C3D86995292622490077B348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3D86998292622490077B348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3D8699A292622490077B348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D869A2292626790077B348 /* CreateNewZooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewZooViewController.swift; sourceTree = "<group>"; };
+		C3D869A5292628320077B348 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C36AA148292692820082BD45 /* ListViews */ = {
+			isa = PBXGroup;
+			children = (
+				C36CE45B29267BB8001434FB /* ListZooKeepersViewController.swift */,
+				C36AA146292690A60082BD45 /* ZooKeeperAnimalsViewController.swift */,
+				C36AA14C2926ABF60082BD45 /* ListAnimalsViewController.swift */,
+			);
+			path = ListViews;
+			sourceTree = "<group>";
+		};
+		C36AA149292692960082BD45 /* ListViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C36CE45D29268128001434FB /* ListZooKeeperTableViewCell.swift */,
+				C36AA14A2926964A0082BD45 /* ZooKeeperAnimalsTableViewCell.swift */,
+				C36AA14E2926AC9D0082BD45 /* ListAnimalTableViewCell.swift */,
+			);
+			path = ListViewCells;
+			sourceTree = "<group>";
+		};
 		C3D86980292622470077B348 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +98,38 @@
 		C3D8698B292622470077B348 /* ZooApp */ = {
 			isa = PBXGroup;
 			children = (
+				C3D869A4292628230077B348 /* Models */,
+				C3D869A12926263C0077B348 /* Views */,
 				C3D8698C292622470077B348 /* AppDelegate.swift */,
 				C3D8698E292622470077B348 /* SceneDelegate.swift */,
-				C3D86990292622470077B348 /* ViewController.swift */,
 				C3D86992292622470077B348 /* Main.storyboard */,
 				C3D86995292622490077B348 /* Assets.xcassets */,
 				C3D86997292622490077B348 /* LaunchScreen.storyboard */,
 				C3D8699A292622490077B348 /* Info.plist */,
+				C36CE45829264C0A001434FB /* ZooDB.xcdatamodeld */,
 			);
 			path = ZooApp;
+			sourceTree = "<group>";
+		};
+		C3D869A12926263C0077B348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C36AA149292692960082BD45 /* ListViewCells */,
+				C36AA148292692820082BD45 /* ListViews */,
+				C3D86990292622470077B348 /* ViewController.swift */,
+				C3D869A2292626790077B348 /* CreateNewZooViewController.swift */,
+				C36CE454292641E9001434FB /* AddZooKeeperViewController.swift */,
+				C36CE456292641FF001434FB /* AddAnimalViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3D869A4292628230077B348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3D869A5292628320077B348 /* Constants.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +203,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36CE45A29264C0A001434FB /* ZooDB.xcdatamodeld in Sources */,
+				C3D869A6292628320077B348 /* Constants.swift in Sources */,
+				C36CE45E29268128001434FB /* ListZooKeeperTableViewCell.swift in Sources */,
+				C36AA14F2926AC9D0082BD45 /* ListAnimalTableViewCell.swift in Sources */,
+				C36AA147292690A60082BD45 /* ZooKeeperAnimalsViewController.swift in Sources */,
+				C3D869A3292626790077B348 /* CreateNewZooViewController.swift in Sources */,
+				C36CE455292641E9001434FB /* AddZooKeeperViewController.swift in Sources */,
+				C36AA14B2926964A0082BD45 /* ZooKeeperAnimalsTableViewCell.swift in Sources */,
 				C3D86991292622470077B348 /* ViewController.swift in Sources */,
 				C3D8698D292622470077B348 /* AppDelegate.swift in Sources */,
 				C3D8698F292622470077B348 /* SceneDelegate.swift in Sources */,
+				C36AA14D2926ABF60082BD45 /* ListAnimalsViewController.swift in Sources */,
+				C36CE45C29267BB8001434FB /* ListZooKeepersViewController.swift in Sources */,
+				C36CE457292641FF001434FB /* AddAnimalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +434,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C36CE45829264C0A001434FB /* ZooDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C36CE45929264C0A001434FB /* ZooDB.xcdatamodel */,
+			);
+			currentVersion = C36CE45929264C0A001434FB /* ZooDB.xcdatamodel */;
+			path = ZooDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C3D86981292622470077B348 /* Project object */;
 }
