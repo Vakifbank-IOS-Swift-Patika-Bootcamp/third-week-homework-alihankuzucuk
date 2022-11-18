@@ -4,24 +4,24 @@
 <pre>
 • Giriş Ekranında;
 
-◦ :white_check_mark: Şirketin bilgileri yer almalıdır.
-◦ :white_check_mark: Şirket gelir gider eklemeleri bu ekrandan yapılabilmelidir.
-◦ :white_check_mark: Şirket maaş ödemesi bu ekrandan yapılabilmelidir.
-◦ :white_check_mark: Çalışan ekle butonu olmalıdır.(Çalışan ekleme ekranı açılmalı)
-◦ :white_check_mark: Çalışan listele butonu olmalı.(Çalışan listesi ekranı açılmalı)
+◦ Şirketin bilgileri yer almalıdır.
+◦ Şirket gelir gider eklemeleri bu ekrandan yapılabilmelidir.
+◦ Şirket maaş ödemesi bu ekrandan yapılabilmelidir.
+◦ Çalışan ekle butonu olmalıdır.(Çalışan ekleme ekranı açılmalı)
+◦ Çalışan listele butonu olmalı.(Çalışan listesi ekranı açılmalı)
 
 • Çalışan Ekleme Ekranında;
 
-◦ :white_check_mark: Çalışan bilgileri girilecektir.(İsim, yaş, çalışan türü vs)
-◦ :white_check_mark: Çalışan maaşı otomatik hesaplanıp ekranda gösterilecektir.
-◦ :white_check_mark: Çalışan ekle yapıldığında şirket ekranına yönlenmelidir.
-◦ :white_check_mark: Bu ekranda UIStackView kullanılmalıdır.
+◦ Çalışan bilgileri girilecektir.(İsim, yaş, çalışan türü vs)
+◦ Çalışan maaşı otomatik hesaplanıp ekranda gösterilecektir.
+◦ Çalışan ekle yapıldığında şirket ekranına yönlenmelidir.
+◦ Bu ekranda UIStackView kullanılmalıdır.
 
 • Çalışan Listesi Ekranında;
 
-◦ :white_check_mark: Çalışanlar listelenmelidir.
-◦ :white_check_mark: UITableView veya UICollectionView kullanılmalıdır.
-◦ :white_check_mark: Çalışanlar arasında isimden arama yapılabilmelidir.
+◦ Çalışanlar listelenmelidir.
+◦ UITableView veya UICollectionView kullanılmalıdır.
+◦ Çalışanlar arasında isimden arama yapılabilmelidir.
 </pre>
 
 2- Hayvanat bahçesi Playground yazılımının Xcode ile projelendirilmesi yapılacaktır. Aşağıdaki Özelliklerin bulunması gerekmektedir:
