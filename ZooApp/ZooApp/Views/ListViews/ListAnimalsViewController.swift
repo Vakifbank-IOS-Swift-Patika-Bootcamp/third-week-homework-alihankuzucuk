@@ -47,6 +47,7 @@ extension ListAnimalsViewController: UITableViewDelegate, UITableViewDataSource 
         cell.lblAnimalName.text = animalsList[indexPath.row].animalName
         cell.lblAnimalType.text = animalsList[indexPath.row].animalType
         cell.lblDailyWaterConsumption.text = String(animalsList[indexPath.row].dailyWaterConsumption)
+        cell.lblZookeeper.text = String(Constants.getZooKeeperBy(id: animalsList[indexPath.row].animalZookeeper.uuidString)?.zooKeeperName ?? "")
         return cell
     }
 }

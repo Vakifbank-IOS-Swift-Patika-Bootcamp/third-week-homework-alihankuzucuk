@@ -16,7 +16,7 @@ class AddAnimalViewController: UIViewController {
     @IBOutlet weak var btnPullDownAnimalType: UIButton!
     @IBOutlet weak var pickerViewZooKeepers: UIPickerView!
     
-    var animalTypes: [String] = ["Leo", "Snake", "Turtle"]
+    var animalTypes: [String] = ["Leo", "Snake", "Turtle", "Dog", "Cat", "Bird"]
     var selectedAnimalType: String = ""
     var zooKeeperList: [Constants.ZooKeeper] = []
     var selectedZooKeeper: [Constants.ZooKeeper] = []

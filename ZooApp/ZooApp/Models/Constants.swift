@@ -185,6 +185,16 @@ class Constants {
         }
     }
     
+    static func getZooKeeperBy(id zookeeperId:String) -> Constants.ZooKeeper? {
+        var returnZookeeper: Constants.ZooKeeper? = nil
+        getZooKeeperList().forEach { zookeeper in
+            if zookeeper.id.uuidString == zookeeperId {
+                returnZookeeper = zookeeper
+            }
+        }
+        return returnZookeeper
+    }
+    
     struct Animal {
         var id: UUID
         var animalName: String

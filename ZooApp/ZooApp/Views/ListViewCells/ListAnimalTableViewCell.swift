@@ -12,6 +12,7 @@ class ListAnimalTableViewCell: UITableViewCell {
     @IBOutlet weak var lblAnimalName: UILabel!
     @IBOutlet weak var lblAnimalType: UILabel!
     @IBOutlet weak var lblDailyWaterConsumption: UILabel!
+    @IBOutlet weak var lblZookeeper: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

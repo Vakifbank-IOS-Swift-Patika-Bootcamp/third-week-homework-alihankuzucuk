@@ -17,7 +17,9 @@ class AddZooKeeperViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        lblZooKeeperSalary.text = String(750) // Every ZooKeepers first takes only 750 because they will have no responsible animal
+        lblZooKeeperSalary.text = String(750)
+        // Every ZooKeepers first takes only 750 because they will have no responsible animal
+        // Look at ZooKeeper list to see how salary calculates according to responsible animal count
         
         txtZooKeeperAge.keyboardType = .numberPad
         

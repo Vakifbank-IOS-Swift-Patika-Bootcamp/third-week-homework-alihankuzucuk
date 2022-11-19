@@ -115,6 +115,10 @@ class Constants {
     static func updateCompanyBudget(isIncome: Bool, amount: Double) -> OperationStates {
         var newBudget: Double = Self.companyBudget
         
+        if amount < 0 {
+            return .inefficientBudget
+        }
+        
         if isIncome {
             newBudget += amount
         } else {
